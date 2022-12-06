@@ -1,0 +1,35 @@
+{
+  "name": "vite-react-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm-run-all -p vitest-preview test",
+    "start-vite": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "vitest-preview": "vitest-preview"
+  },
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@vitejs/plugin-react": "^2.1.0",
+    "jsdom": "^20.0.1",
+    "npm-run-all": "^4.1.5",
+    "vite": "^3.1.8",
+    "vitest": "^0.24.3",
+    "vitest-preview": "^0.0.1"
+  }
+}
